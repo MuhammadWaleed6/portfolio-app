@@ -1,0 +1,137 @@
+.project-detail-page {
+  min-height: 100vh;
+  padding: 120px 0 80px;
+  background: var(--secondary-bg);
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--danger);
+  font-weight: 600;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.back-btn:hover {
+  transform: translateX(-5px);
+}
+
+.project-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: var(--text-primary);
+}
+
+.project-detail-image {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  box-shadow: 0 10px 40px rgba(99, 102, 241, 0.3);
+}
+
+.project-detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-detail-content {
+  max-width: 900px;
+}
+
+.detail-section {
+  margin-bottom: 40px;
+}
+
+.detail-section h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--text-primary);
+}
+
+.detail-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.highlight {
+  color: var(--danger) !important;
+  font-weight: 600;
+  font-size: 1.2rem !important;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.tech-badge {
+  padding: 10px 20px;
+  background: var(--card-bg);
+  color: var(--danger);
+  border-radius: 20px;
+  font-weight: 600;
+  border: 2px solid var(--danger);
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.contributions-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.contribution-item {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contribution-item strong {
+  color: var(--danger);
+  font-size: 1rem;
+}
+
+.contribution-item span {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.case-study-content {
+  background: var(--card-bg);
+  padding: 30px;
+  border-radius: 12px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  white-space: pre-line;
+}
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 2rem;
+  }
+
+  .project-detail-image {
+    height: 300px;
+  }
+
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+}

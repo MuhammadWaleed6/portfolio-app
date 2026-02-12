@@ -1,0 +1,280 @@
+.collaborator-portfolio {
+  padding: 100px 0 50px;
+  min-height: 100vh;
+  background: var(--secondary-bg);
+}
+
+.portfolio-hero {
+  margin-bottom: 80px;
+  background: white;
+  padding: 60px 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.portfolio-hero .profile-img {
+  width: 100%;
+  max-width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid var(--primary-color);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.portfolio-hero h3 {
+  color: var(--primary-color);
+  margin-bottom: 25px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.portfolio-hero .bio {
+  line-height: 1.8;
+  margin-bottom: 25px;
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.contact-info a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 1rem;
+}
+
+.contact-info a:hover {
+  color: var(--primary-color);
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondary-bg);
+  border-radius: 50%;
+  color: var(--text-primary);
+  font-size: 1.3rem;
+  transition: all 0.3s;
+}
+
+.social-links a:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-3px);
+}
+
+.portfolio-section {
+  margin-bottom: 60px;
+}
+
+.portfolio-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  text-align: left;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.project-card {
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+  border-radius: 15px;
+  background: white;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.project-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.project-card .card-body {
+  padding: 25px;
+}
+
+.project-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.project-card p {
+  margin-bottom: 18px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tech-tag {
+  background: var(--primary-color);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.service-card {
+  padding: 35px;
+  height: 100%;
+  transition: all 0.3s;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h4 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.service-card p {
+  line-height: 1.8;
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.tech-section-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.tech-badge {
+  background: white;
+  padding: 14px 26px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.tech-badge:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-card {
+  padding: 35px;
+  height: 100%;
+  position: relative;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-card .stars {
+  color: #ffc107;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 5px;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  line-height: 1.9;
+  margin-bottom: 20px;
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+}
+
+.testimonial-card h5 {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.no-content {
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+  padding: 40px 0;
+}
+
+@media (max-width: 768px) {
+  .portfolio-hero {
+    padding: 40px 20px;
+  }
+
+  .portfolio-hero h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+  .portfolio-hero h3 {
+    font-size: 1.2rem;
+  }
+
+  .portfolio-hero .profile-img {
+    max-width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .contact-info {
+    margin-top: 20px;
+  }
+
+  .portfolio-section h2 {
+    font-size: 1.8rem;
+  }
+}

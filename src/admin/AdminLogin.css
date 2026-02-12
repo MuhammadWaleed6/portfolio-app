@@ -1,0 +1,67 @@
+.admin-login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+}
+
+.login-card {
+  background: var(--card-bg);
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(99, 102, 241, 0.3);
+  width: 100%;
+  max-width: 450px;
+}
+
+.login-card h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  background: linear-gradient(135deg, var(--accent), #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.login-card .form-group {
+  margin-bottom: 25px;
+}
+
+.login-card label {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px 15px;
+  background: var(--secondary-bg);
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.login-card input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.login-card button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .login-card {
+    padding: 30px 20px;
+    margin: 20px;
+  }
+}
